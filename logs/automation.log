@@ -1,0 +1,10 @@
+15:40:18.031 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest Ending ****
+15:56:09.073 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\admin\eclipse-workspace\OpenCart25\testng.xml"
+15:56:17.325 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest starting ****
+15:56:20.089 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest Ending ****
+16:19:00.290 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\admin\eclipse-workspace\OpenCart25\testng.xml"
+16:19:09.565 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest starting ****
+16:19:12.714 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest Ending ****
+16:31:57.381 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\admin\eclipse-workspace\OpenCart25\testng.xml"
+16:32:05.826 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest starting ****
+16:32:08.246 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest Ending ****
