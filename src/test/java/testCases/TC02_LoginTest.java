@@ -29,6 +29,8 @@ public class TC02_LoginTest extends BaseClass {
 		lp.setEmail(prop.getProperty("email"));
 		lp.setPass(prop.getProperty("password"));
 		lp.clickLogin();
+		driver.navigate().refresh();
+		Thread.sleep(500);
 		
 		MyAccountPage myAcc=new MyAccountPage(driver);
 		boolean targetPage= myAcc.isMyAccountPageExists();

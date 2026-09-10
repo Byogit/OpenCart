@@ -39,6 +39,8 @@ public class TC01_AccountRegistrationTest extends BaseClass {
 	regPage.ClickSubscribe();
 	regPage.ClickPrivacyPolicy();
 	regPage.ClickContinue();
+	driver.navigate().refresh();
+	Thread.sleep(500);
 	
 	logger.info("Validating expected message");
 	String confmsg=regPage.getConfirmationmsg();
@@ -59,7 +61,9 @@ public class TC01_AccountRegistrationTest extends BaseClass {
 		
 	}
 	 
-	Thread.sleep(500);
+	
+
+
 	System.out.println(driver.getTitle());
 	logger.info("**** Finished TestCase ****");
 	

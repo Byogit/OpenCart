@@ -9,3 +9,6 @@
 17:36:13.488 [main] INFO  testCases.TC01_AccountRegistrationTest - **** Finished TestCase ****
 17:36:16.986 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest starting ****
 17:36:19.041 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest Ending ****
+18:03:02.230 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\admin\eclipse-workspace\OpenCart25\testng.xml"
+18:03:09.068 [main] INFO  testCases.TC01_AccountRegistrationTest - **** Starting TC01_AccountRegistrationTest ****
+18:03:34.728 [main] INFO  testCases.TC02_LoginTest - **** TC02_LoginTest starting ****
