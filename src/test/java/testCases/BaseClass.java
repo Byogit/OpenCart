@@ -34,21 +34,30 @@ public class BaseClass {
 		
 		logger=LogManager.getLogger(this.getClass()); //log4j
 		
-		switch (br.toLowerCase()) 
-		{
-		case "chrome" : driver=new ChromeDriver(); break;
-		case "edge" : driver=new EdgeDriver(); break;
-		case "firefox" : driver=new FirefoxDriver(); break;
-       
-		default:System.out.println("Invalid Browser name..."); return;
-		}
 		
-		driver=new ChromeDriver();
+		switch (br.toLowerCase()) // for cross browser execution
+		{
+		case "chrome":
+			driver = new ChromeDriver();
+			break;
+		case "edge":
+			driver = new EdgeDriver();
+			break;
+		case "firefox":
+			driver = new FirefoxDriver();
+			break;
+
+		default:
+			System.out.println("Invalid Browser name...");
+			return;
+		}
+
+		//driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		
-		driver.get(prop.getProperty("appURL"));     //reading url from properties file
 		driver.manage().window().maximize();
+		driver.get(prop.getProperty("appURL"));     //reading url from properties file
+		
 		Thread.sleep(500);
 		
 	}

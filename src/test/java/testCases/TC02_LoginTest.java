@@ -14,7 +14,7 @@ import pageObjects.MyAccountPage;
 public class TC02_LoginTest extends BaseClass {
 	
 	@Test
-	public void  verify_Login() {
+	public void  verify_Login() throws InterruptedException {
 		
 		logger.info("**** TC02_LoginTest starting ****");
 		
@@ -37,7 +37,9 @@ public class TC02_LoginTest extends BaseClass {
 		}
 		catch (Exception e) {
 			Assert.fail();
+			
 		}
+		Thread.sleep(500);
 		logger.info("**** TC02_LoginTest Ending ****");
 		}
 

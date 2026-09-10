@@ -56,8 +56,10 @@ public class TC01_AccountRegistrationTest extends BaseClass {
 	catch (Exception e)
 	{
 		Assert.fail();
+		
 	}
 	 
+	Thread.sleep(500);
 	logger.info("**** Finished TestCase ****");
 	
 	}
