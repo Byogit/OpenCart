@@ -60,6 +60,7 @@ public class TC01_AccountRegistrationTest extends BaseClass {
 	}
 	 
 	Thread.sleep(500);
+	System.out.println(driver.getTitle());
 	logger.info("**** Finished TestCase ****");
 	
 	}

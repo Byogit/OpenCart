@@ -40,6 +40,7 @@ public class TC02_LoginTest extends BaseClass {
 			
 		}
 		Thread.sleep(500);
+		System.out.println(driver.getTitle());
 		logger.info("**** TC02_LoginTest Ending ****");
 		}
 
